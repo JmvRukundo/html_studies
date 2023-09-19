@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-xxl{
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+.last{
+    margin-right: 15em;
+}
+.container-fluid{
+    margin: 0 10em 0 10em;
+    margin-right: 50px;
+}
+
+/* menu nav bar */
+.nav-bar{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    line-height: 3em;
+    border-bottom: 2px solid whitesmoke;
+    box-shadow: 0 0 2px 0 whitesmoke;
+    margin-right: 50px;
+}
+
+.nav-bar .nav-title{
+    margin: 0 2.5px 0 2.5px;
+    padding: 8px;
+}
+.nav-bar .nav-title a{
+    text-decoration: none;
+    color:rgb(21, 90, 21)
+}
+.nav-bar .menu{
+    display: block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 12em;
+    margin-right: 50px;
+}
+.nav-bar .menu ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    width: 70px;
+    margin: 0 2.5px 0 2.5px;
+    text-align: center;
+    padding: 8px;
+}
+.nav-bar .menu ul li a{
+    text-decoration: none;
+}
+.nav-bar .add-propety-link{
+
+text-decoration: none;
+margin: 0 2.5px 0 2.5px;
+padding: 8px;
+color:white;
+background-color: rgb(21, 90, 21);
+border-radius: 5px;
+width: 70px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.wrapper h1{
+    font-size: 28px;
+}
+.perfect{
+    color: rgb(21, 90, 21);
+}
+.perfect-get{
+    position: relative;
+    background-color: rgb(21, 90, 21);
+    margin: 15px;
+    width: 100px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.get-started{
+ 
+    color: white;
+} 
+.search{
+    background-color:  rgb(21, 90, 21);
+    height: 85px;
+    border-radius: white;
+    font-size: 50px;
+    padding: 8px;
+    margin: 2.5px 0 2.5px 0;
+    width: 25em;
+    margin-right: 50px;
+}
+.key{
+    width: 250px;
+    height: 45px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.sear{
+   width: 250px;
+   height: 45px;
+   margin-left: 50px;
+   color: white;
+   background-color:  rgb(31, 58, 58);
+   font-size: 20px;
+}
+.property{
+    margin-left: 40em;
+}
+.vero{
+    margin: 15px 20px 50px 17em;
+    font-size: 20px;
+}
+.right-image{
+    margin-left: 10em;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 80px;
+}
+.tempor{
+  margin-right: 5em;
+  font-size: 18px;
+
+}
+.read{
+    background-color: rgb(21, 90, 21);
+    color: white;
+    font-size: 18px;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+.feature{
+    margin-left: 30em;
+    font-size: 30px;
+}
+.feat{
+    background-color: rgb(21, 90, 21);
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 3em;
+}
+.list{
+    margin-left: 10em;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.for{
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    border-color: rgb(21, 90, 21);
+    border-radius: 5px;
+}
+.photo{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10em;
+}
+.h2{
+    color: rgb(21, 90, 21);
+}
+.more{
+    margin-left: 52em;
+    background-color: rgb(21, 90, 21);
+    color: white;
+    width: 15em;
+    height: 45px;
+    border-color: rgb(21, 90, 21);
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.contact{
+    margin-right: 5em;
+    font-size: 18px;
+}
+.call{
+    color: white;
+    background-color: rgb(21, 90, 21);
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.get{
+    color: white;
+    background-color: rgb(26, 9, 9);
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.agent{
+    margin-left: 20em;
+}
+.sed{
+    margin-left: 35em;
+}
+.neymar{
+    margin-top: 3em;
+}
+.client{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.name{
+    margin-right: 100em;
+}
+.photoshop{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10em;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+.sign{
+    background-color: rgb(21, 90, 21);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.email{
+   background-color: black;
+   color: white;
+   width: 200px;
+   height: 30px;
+   border-radius: 5px;
+   font-size: 15px; 
+}
+.fight{
+    margin-top: 3em;
+}
+.dolore{
+    font-size: 20px;
+    margin-top: 5em;
+}
+.rash{
+    margin-left: 10em;
+}
+.galley{
+    margin-left: 5em;
+}

@@ -1,0 +1,33 @@
+.name{
+    background-color: white;
+    margin-right: 100px;
+}
+.gen{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+}
+.but{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    margin-left: 400px;
+    width: 250px;
+    height: 25px;
+    border-color: blueviolet;
+}
+.bod{
+    background-color: blueviolet;
+}
+.gd{
+    background-color: white;
+}
+.div{
+    background-color: white;
+}
+.fm{
+    margin-right: 100px;
+}
+.pr{
+   margin-right: 980px; 
+}
